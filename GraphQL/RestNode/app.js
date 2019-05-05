@@ -7,7 +7,7 @@ const uuidv4 = require('uuid/v4');
 const multer = require('multer');
 
 const app = express();
-const MONGODB_URI = 'mongodb+srv://tuvshinClient:Tuwshin99@udemy-vp6wh.gcp.mongodb.net/GraphQLApi';
+const MONGODB_URI = 'MONGOCLUSTER graphql';
 const graphHttp = require('express-graphql');
 const graphqlSchema = require('./graphQL/schema');
 const graphqlResolvers = require('./graphQL/resolvers');

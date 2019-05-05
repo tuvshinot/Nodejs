@@ -9,7 +9,7 @@ const multer = require('multer');
 const app = express();
 const feedRoutes = require('./routes/feed');
 const authRoutes = require('./routes/auth');
-const MONGODB_URI = 'mongodb+srv://tuvshinClient:Tuwshin99@udemy-vp6wh.gcp.mongodb.net/RestApi';
+const MONGODB_URI = 'cluster RestApi';
 
 // images storage
 const storage = multer.diskStorage({

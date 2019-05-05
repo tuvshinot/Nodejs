@@ -11,7 +11,7 @@ const flash = require('connect-flash');
 const errorController = require('./controllers/error');
 const User = require('./models/user');
 
-const MONGODB_URI = 'mongodb+srv://tuvshinClient:Tuwshin99@udemy-vp6wh.gcp.mongodb.net/shopAuth';
+const MONGODB_URI = 'claster shopAuth';
 
 
 const app = express();

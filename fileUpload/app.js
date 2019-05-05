@@ -12,7 +12,7 @@ const multer = require('multer');
 const errorController = require('./controllers/error');
 const User = require('./models/user');
 
-const MONGODB_URI = 'mongodb+srv://tuvshinClient:Tuwshin99@udemy-vp6wh.gcp.mongodb.net/fileUpload';
+const MONGODB_URI = 'MONGOCLUSTER fileupload';
 
 const app = express();
 const store = new MongoDBStore({
